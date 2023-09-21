@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(163, 28, 48);
+    font-family: Helvetica, sans-serif;
+    /* set padding on body instead of having to 
+       do it for each of header, main, footer */
+    padding-inline-start: 10%;
+    padding-inline-end: 10%;
+    padding-block-start: 2em;
+    padding-block-end: 2em;
+}
+header, main, footer {
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 0.25em;
+    border-color: rgb(0,0,0);
+    padding: 1em;
+}
+header {
+    background-color: rgb(0,0,0);
+    background-image: url(../images/opte-internet.jpg);
+    background-position-x: 50%;
+    background-position-y: 90%;
+    background-repeat: no-repeat;
+}
+header h1 { 
+    font-size: 3em;
+    text-align: center;
+    color: rgb(255,255,255);
+    text-shadow: 0.05em 0.05em black;
+}
+main {
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+}
+main section {
+    background-repeat: no-repeat;
+    background-size: 5em;
+    padding-inline-start: 6em;
+    margin-bottom: 2em;
+}
+section h2 { 
+    color: rgb(163, 28, 48);
+}
+section p { 
+    line-height: 1.5;
+}
+main section.markup {
+    background-image: url(../images/logo-html5.png);
+}
+main section.styles {
+    background-image: url(../images/logo-css3.png);
+}
+main section.scripts {
+    background-image: url(../images/logo-js.png);
+}
+
+
+a:link, a:visited, a:hover, a:active {
+    color: rgb(0,0,255);
+    text-decoration: none;
+} 
+a:hover { 
+    text-decoration: underline;
+}

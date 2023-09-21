@@ -1,0 +1,14 @@
+  CSCI E-12 Main Topics
+
+  Hypertext Markup Language (HTML)
+  HTML is the Web’s core language for creating content for everyone to use anywhere. The World Wide Web's markup language has always been HTML.
+  HTML was originally designed as a language for semantically describing scientific documents, but its general design and adaptations over the years have enabled it to be used to describe a number of other types of documents.
+
+  Cascading Style Sheets (CSS)
+  Style sheets describe how documents are presented on screens, in print, or perhaps how they are pronounced. Cascading Style Sheets (CSS) is a style sheet mechanism that has been specifically developed to meet the needs of Web designers and users.
+
+  JavaScript
+  JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
+  Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.
+
+  Created for CSCI E-12, taught by David Heitmeyer at Harvard Extension School
